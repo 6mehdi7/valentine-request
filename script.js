@@ -196,6 +196,5 @@ function createHeartExplosion() {
         document.querySelector('.floating-elements').appendChild(heart);
         setRandomPosition(heart);
     }
-}
 
 } 
