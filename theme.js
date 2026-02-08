@@ -8,6 +8,8 @@ function applyTheme() {
     root.style.setProperty('--background-color-2', config.colors.backgroundEnd);
     root.style.setProperty('--button-color', config.colors.buttonBackground);
     root.style.setProperty('--button-hover', config.colors.buttonHover);
+    root.style.setProperty('--no-button-color', config.colors.noButtonBackground);
+    root.style.setProperty('--no-button-hover', config.colors.noButtonHover);
     root.style.setProperty('--text-color', config.colors.textColor);
 
     // Apply animation settings
