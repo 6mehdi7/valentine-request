@@ -52,6 +52,7 @@ const CONFIG = {
         title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
         message: "Now come get your gift, a big warm hug and a huge kiss!",
         emojis: "🎁🤗💝💋💕"  // These will bounce around
+        image: "https://i.pinimg.com/736x/ab/60/1f/ab601f2ba1915b8e193a7795ffae7f43.jpg" // 👈 PUT YOUR IMAGE PATH HERE
     },
 
     // Color scheme for the website
