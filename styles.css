@@ -5,10 +5,8 @@
     --background-color-2: #ffc3a0;
     --button-color: #ff6b6b;
     --button-hover: #ff8787;
-    
-    --no-button-color: #444;      /* ✅ NEW */
-    --no-button-hover: #666;      /* ✅ NEW */
-
+    --no-button-color: #444444;
+    --no-button-hover: #666666;
     --text-color: #ff4757;
 
     /* Animations */
@@ -78,6 +76,15 @@ body {
 .cute-btn:hover {
     transform: scale(1.1);
     background: var(--button-hover);
+}
+
+/* Make all "No" buttons use a different color */
+[id^="noBtn"] {
+    background: var(--no-button-color);
+}
+
+[id^="noBtn"]:hover {
+    background: var(--no-button-hover);
 }
 
 .hidden {
@@ -296,12 +303,4 @@ h2 {
     0% { opacity: 0.2; }
     100% { opacity: 0.3; }
 }
-[id^="noBtn"] {
-    background: var(--no-button-color);
-}
 
-[id^="noBtn"]:hover {
-    background: var(--no-button-hover);
-}
-
-} 
