@@ -80,8 +80,6 @@ window.addEventListener('DOMContentLoaded', () => {
     // Create initial floating elements
     createFloatingElements();
 
-    // Setup music player
-    setupMusicPlayer();
 });
 
 // Create floating hearts and bears
@@ -200,5 +198,4 @@ function createHeartExplosion() {
     }
 }
 
-    });
 } 
